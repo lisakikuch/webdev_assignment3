@@ -20,7 +20,7 @@ Description:
 Implementation process: 
 1. Browsed websites that provided instructions on creating a JavaScript quiz (2023, Altcademy) and came up with a concept. 
 
-2. Created the basic framework following the instructions, adding questions, options, and answers to the JS file. In the HTML file, created blank questions to retrieve the questions from the JS file. 
+2. Created the basic framework following the instructions, adding questions, options, and answers to the JS file. In the HTML file, created blank questions field to retrieve the questions from the JS file. 
 
 3. Added functions required such as fake authentication, visual feedback to the user selection, question counter, and counting the score in JS, and made corresponding field in HTML at the same time. 
 
