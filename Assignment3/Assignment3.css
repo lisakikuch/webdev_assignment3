@@ -1,0 +1,44 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(1, 40, 40);
+    text-align: center;
+}
+
+p {
+    font-size: large;
+}
+
+h1 {
+    animation: colorChange 2s infinite alternate;
+}
+
+.row h1 {
+    margin-bottom: 3%;
+}
+
+@keyframes colorChange {
+    from {
+        color: rgb(1, 40, 40);
+    }
+
+    to {
+        color: #CC0000;
+    }
+}
+
+body {
+    padding-top: 2%;
+    min-height: 100vh;
+    background-image: url('background.JPG');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+
+#quiz,
+#quizProgress {
+    display: none
+}
